@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define LEN 12 // len is specified in bytes, so the key is 8*LEN bits long
-
+#define LEN 12 // 12 bytes = 96 bits
 int main()
 {
     FILE *randFile, *outFile;
